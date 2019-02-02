@@ -1,3 +1,4 @@
+---
 layout: page
 title: MongoDB vs PostgreSQL: the smackdownening.
 ---
