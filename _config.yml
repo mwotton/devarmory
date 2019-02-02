@@ -17,7 +17,7 @@ title: Dev Armory
 description: >- # this means to ignore newlines until "baseurl:"
   reviews of dev tools by actual devs. no marketing fluff or white papers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://devarmory.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
