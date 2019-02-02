@@ -76,7 +76,7 @@ So, how do we search it? Let's look at the first non-trivial mongo
 query
 
 ```
-db.inventory.find( { status: "D" } )
+db.inventory.find( { status: "A" } )
 ```
 
 This translates as
