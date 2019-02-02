@@ -57,10 +57,12 @@ is associated with the id of the `items` table elswhere in the database.
 
 ```
 create table items (id serial, metadata jsonb);
-insert into items ("metadata") values ('{ "item": "journal", "qty": 25, "status": "D",
-       "size": { "h": 14, "w": 21, "uom": "cm" }, "tags": [ "blank", "red" ] }');
-insert into items ("metadata") values ('{ "item": "notebook", "qty": 50, "status": "A",
-       "size": { "h": 8.5, "w": 11, "uom": "in" }, "tags": [ "red" ] }');
+insert into items ("metadata") values
+  ('{ "item": "journal", "qty": 25, "status": "D",
+      "size": { "h": 14, "w": 21, "uom": "cm" }, "tags": [ "blank", "red" ] }');
+insert into items ("metadata") values
+  ('{ "item": "notebook", "qty": 50, "status": "A",
+      "size": { "h": 8.5, "w": 11, "uom": "in" }, "tags": [ "red" ] }');
 ```
 
 We use `jsonb` as a column type rather than `json` because there are
