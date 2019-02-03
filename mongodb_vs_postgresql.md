@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MongoDB vs PostgreSQL: the smackdownening.
+title: "MongoDB vs PostgreSQL: the smackdownening."
 ---
 
 # How to get JSON search without installing MongoDB
