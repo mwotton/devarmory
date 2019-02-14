@@ -3,7 +3,7 @@ layout: page
 title: "MongoDB vs PostgreSQL: the smackdownening."
 ---
 
-# How to get JSON search without installing MongoDB
+# How to get JSON search in PostgreSQL
 
 If you've been a dev on the net in, say, the last decade, you've
 probably seen an ad for MongoDB. The marketing was fierce - NoSQL was
